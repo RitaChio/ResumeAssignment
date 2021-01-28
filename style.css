@@ -1,0 +1,28 @@
+/*Color Palet: #e3c9c9 #f4e7e7 #eedbdb #cecbcb #cbdadb */
+/**/
+header {
+    background-color: #ffffff;
+}
+body {
+    background-color: #cecbcb;
+}
+a {
+    color: green;
+}
+
+.featsBlock {
+    background-color: #eedbdb;
+}
+
+.workBlock {
+    background-color: #e3c9c9;
+}
+
+.eduBlock {
+    background-color: #f4e7e7;
+}
+
+ul.footer {
+    list-style-type: none;
+    display: inline;
+}
