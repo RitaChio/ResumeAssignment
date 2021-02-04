@@ -9,6 +9,12 @@ body {
 a {
     color: green;
 }
+/*Learn how to select all sections and style them vs independently(group selectors)*/
+
+.featsBlock, .workBlock, .eduBlock {
+    padding: 40px;
+}
+
 
 .featsBlock {
     background-color: #eedbdb;
