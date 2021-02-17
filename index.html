@@ -9,70 +9,109 @@
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
-        <h1>Rita Chiorescu</h1>
-        <h2>Network Technician</h2>
-
-        <p>Want to help me build this website, perhaps by adding cool features? Click this link to visit the repository on Github <a href="https://github.com/RitaChio/ResumeAssignment/blob/main/README.md">ResumeAssignment repository</a></p>
-        <p>Skills include web development, graphic design, electronic development and programming, computer network management and administration</p>
-      </header>
-
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <div class="featsBlock">
-        <section>
-        <h2>Featured Projects</h2>
-        <!--<p>View selected projects below. More information can be found at <a href="http://christinatruong.com">christinatruong.com</a>.</p>-->
-
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-          <h3>Project Name</h3>
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-          <a href="#" target="_blank">View project / case study</a>
-        </section>
-        <!-- End of Project block. -->
-      </section>
+      <div class="header">
+        <header>
+          <div id="headerimg">
+            <img src="headerimg.png" alt="profile photo">
+          </div>
+          <h1>Rita Chiorescu</h1>
+          <h2>Network Technician</h2>
+          <p>To check out my repository on Github <a href="https://github.com/RitaChio/ResumeAssignment/blob/main/README.md">click here</a></p>
+        </header>
       </div>
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <div class="workBlock">
-      <section>
-        <h2>Work Experience</h2>
-        <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
-
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Job title</h3>
-          <p>Company Name</p>
-          <p>Date at job</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-        </section>
-        <!-- End of Job block. -->
-      </section>
-    </div>
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <div class="eduBlock">
-      <section>
-        <h2>Education</h2>
-
-        <!-- Copy this whole <section> block to add more schools. -->
-        <section>
-          <h3>School name - City</h3>
-          <p>Designation received or program name, year attended</p>
-          <p>Summary or accomplishments.</p>
-        </section>
-        <!-- End of School block. -->
-      </section>
-    </div>
-      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
-        <h2>Let's Keep in Touch!</h2>
-
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul class="footer">
-          <li><a href="mailto:dontsharemyemail@example.com">dontsharemyemail@example.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="https://www.linkedin.com/in/ritachiorescu/" target="_blank">LinkedIn</a></li>
+      <div class="navbar">
+        <ul class="navrow">
+          <li><a href=#>About Me</a>
+            <ul class="dropdown">
+              <li><a href="http://agorable.space">Blog</a></li>
+            </ul>
+          </li>
+          <li><a href=#>Projects</a>
+            <ul class="dropdown">
+              <li><a href=#>HTML/CSS</a></li>
+              <li><a href=#>Javascript</a></li>
+              <li><a href=#>Python</a></li>
+            </ul>
+          </li>
+          <li><a href=#>Services</a>
+            <ul class="dropdown">
+              <li><a href=#>Web Development</a></li>
+              <li><a href=#>Graphic Design</a></li>
+              <li><a href=#>Programming</a></li>
+              <!--insert another tier of dropdown/slide out submenu-->
+            </ul>
+          </li>
+          <li><a href=#>Contact</a>
+            <ul class="dropdown">
+              <li><a href="https://www.linkedin.com/in/ritachiorescu/">LinkedIn</a></li>
+              <li><a href="mailto:dontsharemyemail@example.com">Email</a></li>
+            </ul>
+          </li>
         </ul>
-      </footer>
+      </div>
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+    <div class="grid-container">
+       <div class="grid-col-1">
+          <section class="featsBlock">
+            <h2>Featured Projects</h2>
+            <!--<p>View selected projects below. More information can be found at <a href="http://christinatruong.com">christinatruong.com</a>.</p>-->
+
+            <!-- Copy the whole <section> block to add more projects. -->
+            <section>
+              <h3>Ecommerce Website</h3>
+              <p>5 page website for an ecommerce/online training company.</p>
+              <a href="https://github.com/RitaChio/5-Page-Website" target="_blank">View project</a>
+              <h3>Fractal Javascript Code</h3>
+              <p>Designed using Javascript and Pi to create fractal art with code.</p>
+              <a href="https://github.com/RitaChio/Fractals" target="_blank">View Project</a>
+              <h3>Python Calculator</h3>
+              <p>Created an application that can calculate basic numbers and decimals.</p>
+              <a href="https://github.com/RitaChio/PythonCalculator" target="_blank">View Project</a>
+            </section>
+            <!-- End of Project block. -->
+          </section>
+        </div>
+      <!-- ***********************  WORK EXPERIENCE  *********************** -->
+      <div class="grid-col-2">
+        <section class="workBlock">
+          <h2>Work Experience</h2>
+
+          <!-- Copy this whole <section> block to add more jobs. -->
+          <section>
+            <h3>Network Technician</h3>
+            <p>April 20th, 2020 to Present</p>
+            <p>Job duties are to asist in the development and maintenance of radio networks across the state of North Carolina.</p>
+          </section>
+          <!-- End of Job block. -->
+        </section>
+      </div>
+      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+      <div class="grid-col-3">
+        <section class="eduBlock">
+          <h2>Education</h2>
+
+          <!-- Copy this whole <section> block to add more schools. -->
+          <section>
+            <h3>Wake Tech - Raleigh, NC </h3>
+            <p>AAS in Web Development - 2023</p>
+            <p>Worked on multiple enterprise websites, prototyping, demonstrating, and testing each phase to make for a successful launch.</p>
+          </section>
+          <!-- End of School block. -->
+        </section>
+      </div>
+     </div>
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <div class="footer">
+        <footer>
+          <h2>Let's Keep in Touch!</h2>
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class="footerList">
+            <li><a href="mailto:dontsharemyemail@example.com">Email Me</a></li>
+            <li><a href="http://agorable.space" target="_blank">Blog</a></li>
+            <li><a href="https://www.linkedin.com/in/ritachiorescu/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </footer>
+      </div>
     </main>
   </body>
 </html>
