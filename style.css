@@ -116,7 +116,7 @@ ul.navrow li:hover ul.dropdown {
 .header {
     text-align: center;
     margin:0;
-    padding:0;
+    padding:50px;
     background-image: url("sacredgeometry.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -132,7 +132,8 @@ img.thumbnail {
 
 table.projectDisplay {
     margin:10px;
-    width:auto;
+    width:500px;
+    height: inherit;
 }
 /*END OF FEAT. PROJ TABLE*/
 /*
@@ -141,31 +142,42 @@ table.projectDisplay {
 /
 /*style every element that is the 
 2nd child of it's parent element*/
+.projectDisplay td{
+    margin:0;
+    padding:0;
+}
+.projectDisplay td:hover {
+    border-left-width: thick;
+}
 .projectDisplay td:nth-child(2){ 
-    padding:10px;
     border-style: solid;
     border-width: 1px;
     border-top: none;
     border-right:none;
-    border-left:none;
+    border-bottom:none;
 }
+/*
+/**********************
+/**********************
+*/
 /*STYLE FOR THE CENTER BLOCKS*/
 .featsBlock, .workBlock, .eduBlock {
     margin:0;
     width: auto;
-    padding: 10px;
+    height: 600px;
+    padding: 50px;
 }
 
 .featsBlock {
-    background-color: #eedbdbe0;
+    background-color: #eedbdb;
 }
 
 .workBlock {
-    background-color: #e3c9c9ef;
+    background-color: #e3c9c9;
 }
 
 .eduBlock {
-    background-color: #f4e7e7ef;
+    background-color: #f4e7e7;
 }
 /*FOOTER LIST STYLE*/
 .footerList > li {
