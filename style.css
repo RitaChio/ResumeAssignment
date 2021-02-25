@@ -127,8 +127,8 @@ img.portraitimg {
     padding:0;
     margin:0;
     float:left;
-    height: 200px;
-    width:160px;
+    height: auto;
+    max-width:100%;
 }
 /*FEAT. PROJECTS TABLE*/
 img.thumbnail {
