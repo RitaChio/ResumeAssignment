@@ -123,6 +123,11 @@ ul.navrow li:hover ul.dropdown {
     background-position: top;
     height:200px;
 }
+img.portraitimg {
+    float:left;
+    height: 400px;
+    width:300px;
+}
 /*FEAT. PROJECTS TABLE*/
 img.thumbnail {
     width:100px;
